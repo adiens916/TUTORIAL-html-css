@@ -1,7 +1,9 @@
+/* 머리말 */
 h1 {
   text-align: center;
 }
 
+/* 영화 소개 */
 .movie {
   background-color: blueviolet;
   margin-bottom: 50px;
@@ -11,10 +13,12 @@ h1 {
   width: 500px;
 }
 
+/* 영화 제목 */
 .movie .title {
   text-align: center;
 }
 
+/* 영화 포스터 */
 .movie .poster {
   display: block;
   margin-left: auto;
