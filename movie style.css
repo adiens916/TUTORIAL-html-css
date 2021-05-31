@@ -3,27 +3,22 @@ h1 {
   text-align: center;
 }
 
-/* 영화 소개 */
-.movie {
-  background-color: blueviolet;
-  margin-bottom: 50px;
-  padding: 50px;
-  margin-left: auto;
-  margin-right: auto;
-  width: 500px;
+a {
+  text-decoration: none;
 }
 
-/* 영화 제목 */
-.movie .title {
+/* 영화 소개 */
+.movie {
+  background-color: #bcf4bc;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+  padding: 50px;
+  width: 500px;
   text-align: center;
 }
 
 /* 영화 포스터 */
 .movie .poster {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: auto;
-  margin-bottom: auto;
   width: 50%;
 }
