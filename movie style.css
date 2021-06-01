@@ -1,6 +1,7 @@
 /* 머리말 */
 h1 {
   text-align: center;
+  font-family: Merienda, cursive;
 }
 
 a {
@@ -16,10 +17,11 @@ a {
   padding: 50px;
   width: 500px;
   text-align: center;
+  font-family: 'Playfair Display', serif;
 }
 
 .movie .title {
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: 'Courgette', cursive;
 }
 
 /* 영화 포스터 */
