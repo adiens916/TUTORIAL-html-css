@@ -18,6 +18,10 @@ a {
   text-align: center;
 }
 
+.movie .title {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
 /* 영화 포스터 */
 .movie .poster {
   width: 50%;
