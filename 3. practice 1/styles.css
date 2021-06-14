@@ -1,0 +1,33 @@
+div {
+  text-align: center;
+}
+
+.logo img {
+  width: 165px;
+  height: 58px;
+  margin-top: 80px;
+}
+
+.menu {
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.menu a {
+  margin-left: 10px;
+  margin-right: 10px;
+  
+  /* 텍스트 관련 속성은 텍스트 태그에 넣는 게 좋은 듯 */
+  font-size: 16px;
+  font-family: 'Helvetica', Sans-Serif;
+  color: #58595B;
+  text-decoration: none;
+}
+
+.menu .on_screen {
+  font-weight: bold;
+}
+
+.picture img {
+  width: 90%;
+}
