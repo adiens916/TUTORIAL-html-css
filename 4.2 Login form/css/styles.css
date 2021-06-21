@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+  border-radius: 5px;
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
+body {
+  margin: 0;
+  background-color: #1BBC9B;
+}
+
+.login-form {
+  width: 300px;
+  /* FIXME: div 태그는 block 속성이라 margin auto로 정렬 */
+  margin: auto;
+  margin-top: 100px;
+  padding: 20px;
+  background-color: #EEEFF1;
+}
+
+.text-field {
+  /* FIXME: width 100%로 주면 상위 컨텐츠까지 제한되는 듯 */
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px;
+  /* FIXME: border-style 대신에 border */
+  border: none;
+  font-size: 14px;
+}
+
+.submit-btn {
+  width: 100%;
+  margin-bottom: 30px;
+  padding: 10px;
+  border: none;
+  background-color: #1BBC9B;
+  color: white;
+  font-size: 14px;
+}
+
+.links {
+  text-align: center;
+}
+
+.links a {
+  font-size: 12px;
+  color: #9B9B9B;
+}
