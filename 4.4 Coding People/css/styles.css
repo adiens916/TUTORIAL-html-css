@@ -1,0 +1,86 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  text-align: center;
+  background-color: #F0E8D9;
+}
+
+.headline {
+  margin: 75px 0px;
+}
+
+.headline h1 {
+  margin-bottom: 30px;
+}
+
+.menu {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+  width: 300px;
+  border-radius: 10px;
+  /* 원래 이미지 모서리는 둥글지 않아서 일일이 지정해줬음
+  또 다른 방법으로 여기 div 태그에 overflow: hidden 추가
+  그러면 넘치는 부분 알아서 짤림 */
+  background-color: white;
+}
+
+.menu .frame {
+  height: 200px;
+}
+
+.menu .frame img {
+  width: 100%;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.menu .contents {
+  margin: 0px;
+  padding: 20px;
+}
+
+.menu .contents h2 {
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+
+.menu .contents p {
+  text-align: left;
+  margin-top: 0px;
+  margin-bottom: 16px;
+}
+
+.menu .contents a {
+  text-align: center;
+}
+
+@font-face {
+  src: url("../fonts/BMJUA_otf.otf");
+  font-family: "BMJUA";
+}
+h1 {
+  font-size: 64px;
+  font-weight: normal;
+  font-family: "BMJUA";
+  color: #58595B;
+}
+h2 {
+  font-size: 32px;
+  font-weight: normal;
+  font-family: "BMJUA";
+  color: #58595B;
+}
+p {
+  font-size: 16px;
+  font-family: "BMJUA";
+  color: #58595B;
+}
+a {
+  font-size: 16px;
+  font-family: "BMJUA";
+  color: #0000EE;
+  text-decoration: none;
+}
